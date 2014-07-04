@@ -1,0 +1,267 @@
+@startup-basePath: "../../startup/";
+@import '../../startup/flat-ui/less/variables.less';
+@import '../../startup/flat-ui/less/mixins.less';
+@import '../../startup/common-files/less/mixins.less';
+@import '../../startup/common-files/less/common.less';
+@import '../../startup/common-files/less/helper.less';
+@import '../../startup/common-files/less/navbar.less';
+@import '../../startup/ui-kit/ui-kit-header/less/header-1.less';
+@import '../../startup/ui-kit/ui-kit-content/less/content-4.less';
+@import '../../startup/ui-kit/ui-kit-content/less/content-21.less';
+@import '../../startup/ui-kit/ui-kit-content/less/content-23.less';
+@import '../../startup/ui-kit/ui-kit-content/less/content-25.less';
+@import '../../startup/ui-kit/ui-kit-contacts/less/contact-1.less';
+@import '../../startup/ui-kit/ui-kit-footer/less/footer-4.less';
+
+@font-face {font-family: 'Bariol_Regular'; src: url('../../fonts/Bariol_Regular.otf');}
+@font-face {font-family: 'Bariol_Bold'; src: url('../../fonts/Bariol_Bold.otf');}
+@font-face {font-family: 'Bariol_Light'; src: url('../../fonts/Bariol_Light.otf');}
+@font-face {font-family: 'Bariol_Thin'; src: url('../../fonts/Bariol_Thin.otf');}
+
+/*********************
+INDEX PAGE
+*********************/
+/*********************
+HEADER
+*********************/
+.header-1 {
+    .navbar {
+    .brand {
+    font-size: 28px;
+    font-family: 'Bariol_Light';   
+    line-height: 1.1;
+    
+    }
+    .navbar-collapse {
+    font-family: 'Bariol_Light';
+    }
+    .nav > li > a {
+    font-size: 20px;
+    }
+    }
+}
+
+@media (max-width: 480px){
+.header-1 .navbar .brand {
+  padding: 0px 0px 0px 0;
+  float: left;
+}
+}
+
+.header-1-sub {
+    h3 {
+    font-family: 'Bariol_Regular';
+    margin-bottom: 0.9%;
+    }
+    .page-transitions {
+        .caption {
+            bottom: 8%;
+        }
+    }
+}
+.header-1-sub .page-transitions .controls > * {
+    position: relative;
+    float: right;
+}
+
+.header-1-sub .lead {
+    font-family: 'Bariol_Thin';
+    padding-top: 2%;
+}
+
+.header-1-sub h4 {
+    color: white;
+    font-family: 'Bariol_Light';
+    font-size: 20px;
+    margin-top: 0px;
+}
+
+.header-1-sub .pt-page-1 .background {
+    background-image: url('../../img/PabloPicasso.jpg');
+    opacity: 1;
+}
+
+.header-1-sub .pt-page-2 .background {
+    background-image: url('../../img/NotoriousBIG.jpg');
+    opacity: 1;
+}
+
+.header-1-sub .pt-page-3 .background {
+    background-image: url('../../img/NeilDegrasseTyson.jpg');
+    opacity: 1;
+}
+
+/*********************
+BODY
+*********************/
+
+.content-4 {
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+
+.content-4 h3 {
+    color: rgb(103, 41, 146);
+    font-family: 'Bariol_Light';
+    text-align: center;
+}
+
+.content-23 .control-btn {
+    bottom: 30px;
+    color: white;
+    background: rgb(103, 41, 146);
+    width: 48px;
+    height: 48px;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+#strategy {
+    background:rgb(103, 41, 146);
+    .control-btn {
+        background: white;
+        color: rgb(103, 41, 146);
+    }
+    h3 { 
+    font-family: 'Bariol_Regular';
+    color: white;
+    }
+    #headlinestrategy {
+        font-size: 40px;
+        margin-top: 40px;
+    }
+    p {
+        color: white;
+        font-family: 'Bariol_Light';
+        font-size: 24px;
+    }
+    a {
+        color: white;
+    }
+    h4 {
+        color: white;
+        font-family: 'Bariol_Light';
+        font-size: 20px;
+        margin-top: 0px;
+    }
+}
+
+#implementation {
+    background: white;
+    h3 { 
+        font-family: 'Bariol_Regular';
+        color: rgb(103, 41, 146);
+
+    }
+    #headlineimplementation {
+        font-size: 40px;
+        margin-top: 40px;
+    }
+    p {
+        color: rgb(103, 41, 146);
+        font-family: 'Bariol_Light';
+        font-size: 24px;
+    }
+    a {
+        color: white;
+    }
+    h4 {
+        color: rgb(103, 41, 146);
+        font-family: 'Bariol_Light';
+        font-size: 20px;
+        margin-top: 0px;
+    }
+}
+
+#optimisation {
+    background: rgb(103, 41, 146);
+    h3 { 
+        font-family: 'Bariol_Regular';
+        color: white;
+    }
+    #headlineoptimisation {
+        font-size: 40px;
+        margin-top: 40px;
+    }
+    .control-btn {
+        background: white;
+        color: rgb(103, 41, 146);
+    }
+     p {
+        color: white;
+        font-family: 'Bariol_Light';
+        font-size: 24px;
+    }
+    a {
+        color: white;
+    }
+    h4 {
+        color: white;
+        font-family: 'Bariol_Light';
+        font-size: 20px;
+        margin-top: 0px;
+    }
+}
+
+/*********************
+FOOTER
+*********************/
+
+.footer-4 {
+    color: rgb(103, 41, 146);
+    font-family: 'Bariol_Regular';
+    background: white;
+    font-size: 8px;
+    line-height: 1.1;
+    .brand {
+    font-family: 'Bariol_Regular';
+    color: rgb(103, 41, 146);
+    vertical-align: bottom;
+    }   
+    .brand:hover {
+    color: rgb(103, 41, 146);
+    opacity: 0.8;
+    } 
+    img {
+        height: 30px;
+    }
+}
+
+/*********************
+ABOUT PAGE
+*********************/
+/*********************
+BODY
+*********************/
+
+.content-21 {
+    background: white;
+    padding-top: 40px;
+    font-family: 'Bariol_Regular';
+}
+
+.content-21 .features.features-tabs .features-header {
+    background: rgb(103, 41, 146);   
+}
+
+.content-21 .features.features-tabs .features-header .box {
+    font-family: 'Bariol_Regular';
+    color: #CAB4D9;
+    font-size: 28px;
+    border-left: 2px solid #CAB4D9;
+}
+
+.content-21 .features.features-tabs .features-body h6 {
+    font-family: 'Bariol_Light';
+    color: rgb(103, 41, 146);
+    font-size: 26px;
+}
+
+.content-21 .features.features-tabs .features-bodies {
+    border-right-style: solid;
+    border-left-style: solid;
+    border-bottom-style: solid;
+    border-width: 2px;
+    border-color: rgb(103, 41, 146);
+    border-radius: 0 0 6px 6px;
+}
