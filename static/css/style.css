@@ -1662,11 +1662,13 @@ HEADER
 *********************/
 .header-1 .navbar .brand {
   font-size: 28px;
-  font-family: 'Bariol_Light';
+  font-family: 'Bariol_Light', 'Alegreya Sans';
+  font-weight: 300;
   line-height: 1.1;
 }
 .header-1 .navbar .navbar-collapse {
-  font-family: 'Bariol_Light';
+  font-family: 'Bariol_Light', 'Alegreya Sans';
+  font-weight: 300;
 }
 .header-1 .navbar .nav > li > a {
   font-size: 20px;
@@ -1678,7 +1680,8 @@ HEADER
   }
 }
 .header-1-sub h3 {
-  font-family: 'Bariol_Regular';
+  font-family: 'Bariol_Regular', 'Alegreya Sans';
+  font-weight: 400;
   margin-bottom: 0.9%;
 }
 .header-1-sub .page-transitions .caption {
@@ -1689,12 +1692,14 @@ HEADER
   float: right;
 }
 .header-1-sub .lead {
-  font-family: 'Bariol_Thin';
+  font-family: 'Bariol_Thin', 'Alegreya Sans';
+  font-weight: 300;
   padding-top: 2%;
 }
 .header-1-sub h4 {
   color: white;
-  font-family: 'Bariol_Light';
+  font-family: 'Bariol_Light', 'Alegreya Sans';
+  font-weight: 300;
   font-size: 20px;
   margin-top: 0px;
 }
@@ -1719,7 +1724,8 @@ BODY
 }
 .content-4 h3 {
   color: #672992;
-  font-family: 'Bariol_Light';
+  font-family: 'Bariol_Light', 'Alegreya Sans';
+  font-weight: 300;
   text-align: center;
 }
 .content-23 .control-btn {
@@ -1739,7 +1745,8 @@ BODY
   color: #672992;
 }
 #strategy h3 {
-  font-family: 'Bariol_Regular';
+  font-family: 'Bariol_Regular', 'Alegreya Sans';
+  font-weight: 400;
   color: white;
 }
 #strategy #headlinestrategy {
@@ -1748,7 +1755,8 @@ BODY
 }
 #strategy p {
   color: white;
-  font-family: 'Bariol_Light';
+  font-family: 'Bariol_Light', 'Alegreya Sans';
+  font-weight: 300;
   font-size: 24px;
 }
 #strategy a {
@@ -1756,7 +1764,8 @@ BODY
 }
 #strategy h4 {
   color: white;
-  font-family: 'Bariol_Light';
+  font-family: 'Bariol_Light', 'Alegreya Sans';
+  font-weight: 300;
   font-size: 20px;
   margin-top: 0px;
 }
@@ -1764,7 +1773,8 @@ BODY
   background: white;
 }
 #implementation h3 {
-  font-family: 'Bariol_Regular';
+  font-family: 'Bariol_Regular', 'Alegreya Sans';
+  font-weight: 400;
   color: #672992;
 }
 #implementation #headlineimplementation {
@@ -1773,7 +1783,8 @@ BODY
 }
 #implementation p {
   color: #672992;
-  font-family: 'Bariol_Light';
+  font-family: 'Bariol_Light', 'Alegreya Sans';
+  font-weight: 300;
   font-size: 24px;
 }
 #implementation a {
@@ -1781,7 +1792,8 @@ BODY
 }
 #implementation h4 {
   color: #672992;
-  font-family: 'Bariol_Light';
+  font-family: 'Bariol_Light', 'Alegreya Sans';
+  font-weight: 300;
   font-size: 20px;
   margin-top: 0px;
 }
@@ -1789,7 +1801,8 @@ BODY
   background: #672992;
 }
 #optimisation h3 {
-  font-family: 'Bariol_Regular';
+  font-family: 'Bariol_Regular', 'Alegreya Sans';
+  font-weight: 400;
   color: white;
 }
 #optimisation #headlineoptimisation {
@@ -1802,7 +1815,8 @@ BODY
 }
 #optimisation p {
   color: white;
-  font-family: 'Bariol_Light';
+  font-family: 'Bariol_Light', 'Alegreya Sans';
+  font-weight: 300;
   font-size: 24px;
 }
 #optimisation a {
@@ -1810,7 +1824,8 @@ BODY
 }
 #optimisation h4 {
   color: white;
-  font-family: 'Bariol_Light';
+  font-family: 'Bariol_Light', 'Alegreya Sans';
+  font-weight: 300;
   font-size: 20px;
   margin-top: 0px;
 }
@@ -1819,13 +1834,15 @@ FOOTER
 *********************/
 .footer-4 {
   color: #672992;
-  font-family: 'Bariol_Regular';
+  font-family: 'Bariol_Regular', 'Alegreya Sans';
+  font-weight: 400;
   background: white;
   font-size: 8px;
   line-height: 1.1;
 }
 .footer-4 .brand {
-  font-family: 'Bariol_Regular';
+  font-family: 'Bariol_Regular', 'Alegreya Sans';
+  font-weight: 400;
   color: #672992;
   vertical-align: bottom;
 }
@@ -1845,19 +1862,22 @@ BODY
 .content-21 {
   background: white;
   padding-top: 40px;
-  font-family: 'Bariol_Regular';
+  font-family: 'Bariol_Regular', 'Alegreya Sans';
+  font-weight: 400;
 }
 .content-21 .features.features-tabs .features-header {
   background: #672992;
 }
 .content-21 .features.features-tabs .features-header .box {
-  font-family: 'Bariol_Regular';
+  font-family: 'Bariol_Regular', 'Alegreya Sans';
+  font-weight: 400;
   color: #CAB4D9;
   font-size: 28px;
   border-left: 2px solid #CAB4D9;
 }
 .content-21 .features.features-tabs .features-body h6 {
-  font-family: 'Bariol_Light';
+  font-family: 'Bariol_Light', 'Alegreya Sans';
+  font-weight: 300;
   color: #672992;
   font-size: 26px;
 }
