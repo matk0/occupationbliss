@@ -1657,18 +1657,189 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
 /*********************
 INDEX PAGE
 *********************/
+.a-page {
+  height: 100%;
+}
+.header-1-sub {
+  height: 50%;
+}
+body {
+  font-size: 24px;
+}
+.icon-down-on-white {
+  width: 48px;
+  height: 48px;
+  font-size: 16px;
+  color: white;
+  background: rgba(103, 41, 146, 0.4);
+  border-radius: 50px;
+  line-height: 50px;
+  text-align: center;
+}
+.icon-down-on-white:hover {
+  color: white;
+  background: #672992;
+}
+/*********************
+NEXT PAGES
+*********************/
+.content-23 {
+  height: 100%;
+}
+.content-23 .control-btn {
+  bottom: 30px;
+  color: white;
+  background: #672992;
+  width: 48px;
+  height: 48px;
+  font-size: 16px;
+  font-weight: 100;
+}
+/*********************
+Strategy page
+*********************/
+#strategy {
+  background: url('../../img/Alexander.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#strategy .control-btn {
+  bottom: 30px;
+  color: #672992;
+  background: white;
+  width: 48px;
+  height: 48px;
+  font-size: 16px;
+  font-weight: 100;
+}
+#strategy .container {
+  right: 15%;
+  left: 15%;
+  position: absolute;
+  bottom: 15%;
+}
+#strategy h3 {
+  font-family: 'Bariol_Regular', 'Alegreya Sans';
+  color: white;
+  font-size: 1.5em;
+  padding-top: 1em;
+}
+#strategy p {
+  color: white;
+  font-family: 'Bariol_Light', 'Alegreya Sans';
+  font-size: 1em;
+}
+#strategy a {
+  color: white;
+}
+#strategy h4 {
+  color: white;
+  font-family: 'Bariol_Light', 'Alegreya Sans';
+  font-size: 0.8333333333em;
+  margin-top: 0px;
+}
+/*********************
+Implementation page
+********************/
+#implementation {
+  background: url('../../img/SteveJobsYoung.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#implementation .control-btn {
+  bottom: 30px;
+  color: white;
+  background: #672992;
+  width: 48px;
+  height: 48px;
+  font-size: 16px;
+  font-weight: 100;
+}
+#implementation .container {
+  right: 15%;
+  left: 15%;
+  position: absolute;
+  bottom: 15%;
+}
+#implementation h3 {
+  font-family: 'Bariol_Regular', 'Alegreya Sans';
+  color: #672992;
+  font-size: 1.5em;
+  padding-top: 1em;
+}
+#implementation p {
+  color: #672992;
+  font-family: 'Bariol_Light', 'Alegreya Sans';
+  font-size: 1em;
+}
+#implementation a {
+  color: #672992;
+}
+#implementation h4 {
+  color: #672992;
+  font-family: 'Bariol_Light', 'Alegreya Sans';
+  font-size: 0.8333333333em;
+  margin-top: 0px;
+}
+/*********************
+Optimisation page
+********************/
+#optimisation {
+  background: url('../../img/Churchill.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#optimisation .control-btn {
+  bottom: 30px;
+  color: #672992;
+  background: white;
+  width: 48px;
+  height: 48px;
+  font-size: 16px;
+  font-weight: 100;
+}
+#optimisation .container {
+  right: 15%;
+  left: 15%;
+  position: absolute;
+  bottom: 15%;
+}
+#optimisation h3 {
+  font-family: 'Bariol_Regular', 'Alegreya Sans';
+  color: white;
+  font-size: 1.5em;
+  padding-top: 1em;
+}
+#optimisation p {
+  color: white;
+  font-family: 'Bariol_Light', 'Alegreya Sans';
+  font-size: 1em;
+}
+#optimisation a {
+  color: white;
+}
+#optimisation h4 {
+  color: white;
+  font-family: 'Bariol_Light', 'Alegreya Sans';
+  font-size: 0.8333333333em;
+  margin-top: 0px;
+}
 /*********************
 HEADER
 *********************/
 .header-1 .navbar .brand {
   font-size: 28px;
   font-family: 'Bariol_Light', 'Alegreya Sans';
-  font-weight: 300;
   line-height: 1.1;
 }
 .header-1 .navbar .navbar-collapse {
   font-family: 'Bariol_Light', 'Alegreya Sans';
-  font-weight: 300;
 }
 .header-1 .navbar .nav > li > a {
   font-size: 20px;
@@ -1719,173 +1890,20 @@ HEADER
 BODY
 *********************/
 .content-4 {
-  padding-top: 40px;
-  padding-bottom: 80px;
+  padding: 0px;
+  padding-top: 20px;
+  height: 50%;
+  text-align: center;
 }
 .content-4 h3 {
   color: #672992;
   font-family: 'Bariol_Light', 'Alegreya Sans';
-  font-weight: 300;
-  text-align: center;
-}
-.content-23 .control-btn {
-  bottom: 30px;
-  color: white;
-  background: #672992;
-  width: 48px;
-  height: 48px;
-  font-size: 16px;
-  font-weight: 100;
-}
-#strategy {
-  background: #672992;
-}
-#strategy .control-btn {
-  background: white;
-  color: #672992;
-}
-#strategy h3 {
-  font-family: 'Bariol_Regular', 'Alegreya Sans';
-  font-weight: 400;
-  color: white;
-}
-#strategy #headlinestrategy {
-  font-size: 40px;
-  margin-top: 40px;
-}
-#strategy p {
-  color: white;
-  font-family: 'Bariol_Light', 'Alegreya Sans';
-  font-weight: 300;
-  font-size: 24px;
-}
-#strategy a {
-  color: white;
-}
-#strategy h4 {
-  color: white;
-  font-family: 'Bariol_Light', 'Alegreya Sans';
-  font-weight: 300;
-  font-size: 20px;
-  margin-top: 0px;
-}
-#implementation {
-  background: white;
-}
-#implementation h3 {
-  font-family: 'Bariol_Regular', 'Alegreya Sans';
-  font-weight: 400;
-  color: #672992;
-}
-#implementation #headlineimplementation {
-  font-size: 40px;
-  margin-top: 40px;
-}
-#implementation p {
-  color: #672992;
-  font-family: 'Bariol_Light', 'Alegreya Sans';
-  font-weight: 300;
-  font-size: 24px;
-}
-#implementation a {
-  color: white;
-}
-#implementation h4 {
-  color: #672992;
-  font-family: 'Bariol_Light', 'Alegreya Sans';
-  font-weight: 300;
-  font-size: 20px;
-  margin-top: 0px;
-}
-#optimisation {
-  background: #672992;
-}
-#optimisation h3 {
-  font-family: 'Bariol_Regular', 'Alegreya Sans';
-  font-weight: 400;
-  color: white;
-}
-#optimisation #headlineoptimisation {
-  font-size: 40px;
-  margin-top: 40px;
-}
-#optimisation .control-btn {
-  background: white;
-  color: #672992;
-}
-#optimisation p {
-  color: white;
-  font-family: 'Bariol_Light', 'Alegreya Sans';
-  font-weight: 300;
-  font-size: 24px;
-}
-#optimisation a {
-  color: white;
-}
-#optimisation h4 {
-  color: white;
-  font-family: 'Bariol_Light', 'Alegreya Sans';
-  font-weight: 300;
-  font-size: 20px;
-  margin-top: 0px;
+  font-size: 1.3em;
 }
 /*********************
 FOOTER
 *********************/
 .footer-4 {
-  color: #672992;
-  font-family: 'Bariol_Regular', 'Alegreya Sans';
-  font-weight: 400;
-  background: white;
-  font-size: 8px;
-  line-height: 1.1;
-}
-.footer-4 .brand {
-  font-family: 'Bariol_Regular', 'Alegreya Sans';
-  font-weight: 400;
-  color: #672992;
-  vertical-align: bottom;
-}
-.footer-4 .brand:hover {
-  color: #672992;
-  opacity: 0.8;
-}
-.footer-4 img {
-  height: 30px;
-}
-/*********************
-ABOUT PAGE
-*********************/
-/*********************
-BODY
-*********************/
-.content-21 {
-  background: white;
-  padding-top: 40px;
-  font-family: 'Bariol_Regular', 'Alegreya Sans';
-  font-weight: 400;
-}
-.content-21 .features.features-tabs .features-header {
-  background: #672992;
-}
-.content-21 .features.features-tabs .features-header .box {
-  font-family: 'Bariol_Regular', 'Alegreya Sans';
-  font-weight: 400;
-  color: #CAB4D9;
-  font-size: 28px;
-  border-left: 2px solid #CAB4D9;
-}
-.content-21 .features.features-tabs .features-body h6 {
-  font-family: 'Bariol_Light', 'Alegreya Sans';
-  font-weight: 300;
-  color: #672992;
-  font-size: 26px;
-}
-.content-21 .features.features-tabs .features-bodies {
-  border-right-style: solid;
-  border-left-style: solid;
-  border-bottom-style: solid;
-  border-width: 2px;
-  border-color: #672992;
-  border-radius: 0 0 6px 6px;
+  height: 40px;
+  line-height: 40px;
 }
