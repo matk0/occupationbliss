@@ -76,14 +76,14 @@
               <div class="container">
                   <h3>"It's the great tragedy. People employed in ways,<br/>that don't fully tap everything they do best in life."</h3>
   								<h4> - Neil deGrasse Tyson</h4>
-                  <p class="lead">Let's fully tap what you love the most and do the best in your life.</p>
+                  <p class="lead">Let's fully tap what you love to do and do the best in your life.</p>
               </div>
           </div>
       </div>
-      <div class="container controls">
+      <!-- <div class="container controls">
           <a class="control-prev" href="#"><span class="icon-Left"> </span></a>
           <a class="control-next" href="#"><span class="icon-Right"> </span></a>
-      </div>
+      </div> -->
   </div>
   </section>
 
@@ -102,41 +102,43 @@
 
 
 <section class="content-23 bg-midnight-blue a-page" id="strategy">
-<div class="holder v-center">
-	<div class="container">
-		<h3>"There is nothing impossible to him who will try."</h3>
-		<h4> - Alexander III of Macedon</h4>
-		<h3>Strategy</h3>
-		<p>We know you strive to be the best at whatever it is you love to do. To achieve greatness you need focus, but to achieve success, things outside of your expertise need to be great too. Things like your digital strategy.
-Either you are already running a business, or the only thing you have is an idea, we are here to help you with it’s digital strategy. We walk you through business modeling, branding and ways to harness the power of digital. Our goal is to take whatever it is you love to do and show you, how to make a living out of it through the use of digital.</p>
-	</div>
-</div>
-<a class="control-btn icon-down" href="#"> </a>
+  <div class="holder v-center">
+  	<div class="container">
+  		<h3>"There is nothing impossible to him who will try."</h3>
+  		<h4> - Alexander III of Macedon</h4>
+  		<h3>Strategy</h3>
+  		<p align="justify">You love what you do and you are great at it. To achieve success and sustainability, things outside of your expertise need to be great too. Things like your digital strategy.
+      Either you are already running a business, or the only thing you have is an idea, we are here to help you with it’s digital strategy. We walk you through business modeling, branding, marketing and all the ways to harness the power of digital. Our goal is to take whatever it is you love to do and show you, how to make a living out of it through the use of digital.</p>
+  	</div>
+    </div>
+    
+  <a class="control-btn icon-down" href="#"> </a>
 </section>
 
 <section class="content-23 bg-midnight-blue a-page" id="implementation">
-<div class="holder v-center">
-	<div class="container">
-		<h3>"The only way to be truly satisfied is to do what you believe is great work, and the only way to do great work is to love what you do."</h3>
-		<h4> - Steven Paul Jobs</h4>
-		<h3>Implementation</h3>		  
-		<p>Fortunately, we are not only a couple of talking heads. We also get our hands dirty and implement what we plan out for you. From websites to web applications, from UX to graphic design, from content marketing to SEO, we are here to give you a hand.</p>
-	</div>
-</div>
-<a class="control-btn icon-down" href="#"> </a>
+  <div class="holder v-center">
+  	<div class="container">
+  		<h3>"The only way to be truly satisfied is to do what you believe is great work, and the only way to do great work is to love what you do."</h3>
+  		<h4> - Steven Paul Jobs</h4>
+  		<h3>Implementation</h3>		  
+  		<p align="justify">With strategy in place, it’s time for it’s implementation. We love the creation process. We love design, content and development all tuned to what you believe is your true purpose in this life.
+      We unleash our creativity through UX design, front-end, back-end web development and set up of all of your brand’s touchpoints. We love building things from scratch and pursuing our vision of excellence.</p>
+  	</div>
+  </div>
+  <a class="control-btn icon-down" href="#"> </a>
 </section>
 
 <section class="content-23 bg-midnight-blue a-page" id="optimisation">
-<div class="holder v-center">
-	<div class="container">
-		<h3>"To improve is to change; to be perfect is to change often."</h3>
-		<h4> - Sir Winston Leonard Spencer-Churchill</h4>
-		<h3>Optimisation</h3>
-		<p>One of the things we love so much about digital is it's measurability. It let’s us know, what works and what does not. No more guessing, no more unsubstantiated claims. The numbers don’t lie.
-Nowadays, you can measure and record just about anything in the digital world, however you need only few key numbers to navigate your business. We are here to let you know what matters, implement the metrics and show you how to optimize your digital strategy on weekly or monthly basis.</p>
+  <div class="holder v-center">
+  	<div class="container">
+  		<h3>"To improve is to change; to be perfect is to change often."</h3>
+  		<h4> - Sir Winston Leonard Spencer-Churchill</h4>
+  		<h3>Optimisation</h3>
+  		<p align="justify">One of the things we love so much about digital is it's measurability and accountability. It let’s us know, what works and what does not. No more guessing, no more unsubstantiated claims. The numbers are there and they don’t lie.
+      On the other hand, you can measure and record just about anything, however you need only few key metrics to navigate your business. We are here to let you know what matters, implement the metrics and show you how to optimize your digital strategy on a periodical basis.</p>
+    </div>
   </div>
-</div>
-<a class="control-btn icon-up" href="#top"> </a>
+  <a class="control-btn icon-up" href="#top"> </a>
 </section>
 
 
@@ -154,7 +156,16 @@ Nowadays, you can measure and record just about anything in the digital world, h
         <script src="startup/common-files/js/jquery.backgroundvideo.min.js"></script>
         <script src="startup/common-files/js/froogaloop.min.js"></script>
         <script src="startup/common-files/js/startup-kit.js"></script>
+        
         <script>
+        $(document).keydown(function (e) {
+          if (e.keyCode == 40) {
+            event.preventDefault();
+          } else if (e.keyCode == 38) {
+            event.preventDefault();
+          }
+        });
+        
         $(function() {
           $('a[href*=#]:not([href=#])').click(function() {
             if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
